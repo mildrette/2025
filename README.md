@@ -12,7 +12,9 @@ Today, I focused on understanding variables and the different data types in Java
 
 ---
 
-## Day 3: Understanding `let`, `var`, and `const`
+## Day 3: Variables and DataTypes 
+
+## task 1: Understanding `let`, `var`, and `const`
 
 ### `const`
 - Used for variables that **do not change**.  
@@ -37,3 +39,7 @@ function testVar() {
 }
 
 testVar();
+
+```
+
+## Task 2: Study JavaScript data types: string, number, boolean, undefined, null, symbol, and bigint.
