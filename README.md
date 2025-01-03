@@ -1,4 +1,4 @@
-# Learning JavaScript from the Beginning
+# Day 1: Learning JavaScript from the Beginning
 
 **Starting on the First Day of 2025**
 
