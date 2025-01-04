@@ -20,13 +20,17 @@ userInPut.question("What is your name? ", (name) => {
       output: process.stdout,
     });
 
-    quiz.question("What is 4 + 8? ", (answer) => {
-      if (parseInt(answer) === 12) {
-        console.log("Congratulations, you are correct!");
-      } else {
-        console.log("Oops! Try again.");
-      }
-      quiz.close();
-    });
+    function askQuestion(){
+        quiz.question("What is 4 + 8? ", (answer) => {
+            if (parseInt(answer) === 12) {
+              console.log("Congratulations, you are correct!");
+              quiz.close();
+            } else {
+              console.log("Oops! Try again. You can do this!");
+              askQuestion();
+            }
+          });
+    }
+  
   });
 });
